@@ -1,15 +1,15 @@
 // بيانات افتراضية للمستخدمين تمثل البيانات من الخادم
 const users = [
     {
-      _id: 1,
+      _id: 1, // معرف المستخدم
       fullName: "سفيان عماما",
       gender: "بطل",
       country: "الجزائر",
       dateOfBirth: "2004-08-25", // تاريخ الميلاد
-      instagram: "", // غير موجود
+      instagramName: "", // غير موجود
       email: "user@example.com",
       isAdmin: true,
-      createdAt: "2023-09-15",
+      createdAt: "2023-09-15", // تاريخ التسجيل
     },
     {
       _id: 2,
@@ -17,10 +17,10 @@ const users = [
       gender: "بطل",
       country: "موريتانيا",
       dateOfBirth: "2004-08-25", // تاريخ الميلاد
-      instagram: "Tag_instagram", // اسم المستخدم في انستجرام
+      instagramName: "Tag_instagram", // اسم المستخدم في انستجرام
       email: "user@example.com",
       isAdmin: true,
-      createdAt: "2023-09-15",
+      createdAt: "2023-09-15", // تاريخ التسجيل
     },
     {
       _id: 3,
@@ -28,10 +28,10 @@ const users = [
       gender: "بطلة",
       country: "مصر",
       dateOfBirth: "2004-08-25", // تاريخ الميلاد
-      instagram: "Tag_instagram",
+      instagramName: "Tag_instagram",
       email: "user@example.com",
       isAdmin: true,
-      createdAt: "2023-09-15",
+      createdAt: "2023-09-15", // تاريخ التسجيل
     },
   ];
   
